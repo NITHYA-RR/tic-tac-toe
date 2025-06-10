@@ -87,14 +87,6 @@ function checkWinner(){
     }
 
 }
-
-function changePlayer(){
-    
-    player=(player=='X') ? "O" :"X";
-    currentPlayer=(currentPlayer==x) ? o : x;
-    statusTxt.textContent=`${player} Your Turn..!`;
-    }
-
 function restartGame(){
     options=["","","","","","","","",""];
     currentPlayer=x;
